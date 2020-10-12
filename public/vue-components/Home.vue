@@ -26,13 +26,29 @@ export default {
   },
   methods: {
     change1: function(){
-      const workouts = ["20 jumping jacks", "10 squats", "5 push-ups", "10 crunches", "30 sec plank", "15 lunges", "30 sec wall sit"];
+      const workouts = [
+        "20 jumping jacks", 
+        "10 squats", 
+        "5 push-ups", 
+        "10 crunches", 
+        "30 sec plank", 
+        "15 lunges", 
+        "30 sec wall sit"
+      ];
       const random = Math.floor(Math.random() * workouts.length);
       const result = workouts[random];
       this.level1 = result;
     },
     change2: function(){
-      const workouts = ["40 jumping jacks", "20 squats", "10 push-ups", "20 crunches", "45 sec plank", "25 lunges", "45 sec wall sit"];
+      const workouts = [
+        "40 jumping jacks", 
+        "20 squats", 
+        "10 push-ups", 
+        "20 crunches", 
+        "45 sec plank", 
+        "25 lunges", 
+        "45 sec wall sit"
+        ];
       const random = Math.floor(Math.random() * workouts.length);
       const result = workouts[random];
       this.level2 = result;
