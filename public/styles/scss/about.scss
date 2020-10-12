@@ -1,0 +1,19 @@
+.question {
+  font-style: italic;
+}
+
+.img-size {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.to-page {
+  color:#ff9900;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: #ff9900;
+  }
+}

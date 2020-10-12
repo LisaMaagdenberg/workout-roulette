@@ -1,0 +1,50 @@
+.side {
+  margin: 25px;
+  text-align: center;
+}
+
+.round {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.link {
+  color:#00cccc;
+  font-family: 'Handlee', cursive;
+  font-size: 1.5em;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: #00cccc;
+  }
+}
+
+.icon {
+  color: black;
+  font-size: 2em;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: black;
+  }
+}
+
+.icon-link {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: black;
+  }
+}
+
+.hr-side {
+  border-top: 1px solid #ff9900;
+}

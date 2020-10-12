@@ -1,0 +1,23 @@
+.navbar {
+  z-index: 20;
+  font-family: 'Handlee', cursive;
+  width: 100vw;
+  min-height: 40px;
+  position: fixed;
+	background-color: #e8e8e8;
+	border-bottom: 2px solid #00cccc;
+  .menuLink {
+    float: left;
+  	padding: 10px 20px;
+  	text-align: center;
+  	font-size: 15px;
+  	color:#ff9900;
+    &:hover {
+      background-color: #cccccc;
+      text-decoration: none;
+    }
+    &:visited {
+    	color: #ff9900;
+    }
+  }
+}
